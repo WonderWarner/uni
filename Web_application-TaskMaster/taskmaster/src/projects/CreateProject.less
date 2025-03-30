@@ -1,0 +1,46 @@
+.create-project-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.create-project-dialog > div {
+    background: rgb(115, 115, 115);
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.create-project-dialog h2 {
+    text-align: center;
+}
+
+.create-project-dialog .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.create-project-dialog button {
+    padding: 10px;
+    border: none;
+    background-color: #5541a4;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.create-project-dialog button[disabled] {
+    background-color: #585858;
+    cursor: not-allowed;
+}

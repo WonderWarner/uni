@@ -1,0 +1,30 @@
+.image-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        width: 128px;
+        height: 128px;
+        margin-bottom: 8px;
+    }
+
+    span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+}

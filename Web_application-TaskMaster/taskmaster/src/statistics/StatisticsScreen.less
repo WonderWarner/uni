@@ -1,0 +1,88 @@
+.back-button {
+    margin: 20px;
+    z-index: 1000;
+}
+
+.statistics-screen {
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        /* Középre igazítás vízszintesen */
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .statistics-data {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+        background-color: #4d4b4b;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        .stat-item {
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+        }
+    }
+
+    .charts-container {
+        display: flex;
+        justify-content: space-around;
+
+        .pie-chart-container {
+            margin-top: 30px;
+            background-color: #b4b4b4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 50%;
+    
+            h3 {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+        }
+    
+        .bar-chart-container {
+            margin-top: 30px;
+            background-color: #b4b4b4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 50%;
+    
+    
+            h3 {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+        }
+    
+    }
+
+// Reszponzív megjelenés
+@media (max-width: 768px) {
+    .statistics-data {
+        padding: 10px;
+    }
+
+    .pie-chart-container,
+    .bar-chart-container {
+        padding: 15px;
+    }
+}
+}
