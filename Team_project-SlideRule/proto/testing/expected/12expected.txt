@@ -1,0 +1,36 @@
+r1
+neighbours: r2, r3, r4, 
+peopleInRoom: 
+itemsInRoom: m, tv, b, 
+gas: true
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0
+r1
+neighbours: r4, r5, 
+peopleInRoom: 
+itemsInRoom: b, 
+gas: true
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0
+r5
+neighbours: r2, r3, r1, 
+peopleInRoom: 
+itemsInRoom: m, tv, 
+gas: false
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0
+r6
+neighbours: r2, r3, r4, 
+peopleInRoom: 
+itemsInRoom: m, tv, b, 
+gas: true
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0

@@ -1,0 +1,34 @@
+A játék kezdetekor a főmenü látható, ahol 4 gomb közül lehet kattintani valamire.
+Opciók:
+   New game - új játék kezdésére, utána be lehet állítani a játékosok nevét
+   Load game - már elkezdett játék betöltésére
+   Statistics - játékok statisztikáinak megjelenítése
+   Exit game - kilépés a főmenüből
+A játék ablakának tetején található menüsorban további opciók állnak rendelkezésre, a teljes játék során.
+Opciók: Game: Main Menu, Save, Load, Exit, Statistics; Help: Rules és How-to
+Kiemelném, hogy az Exit gombra kattintva a játék nem kerül mentésre, ezt külön kérni kell előtte
+Save gombra kattintva bármikor elmenthető a játék melyet később probléma nélkül folytatni lehet.
+A Load opció során azokat a játékosneveket kell beírni a megfelelő sorrendben,
+amivel a betölendő játékot is játszották.
+
+Új játék létrehozásakor minden játékosnak egyedi nevet kell beállítani, hogy lehetőség legyen a statisztika helyes tárolására.
+Mivel a fájlba mentés a játékos nevek alapján történik, ezért csak az angol abc kis-és nagybetűit,
+számokat és '_' '-' karaktereket használhatnak, maximum 20 karakter hosszúságban.
+
+A játék során váltóképernyő segít, hogy lehetőleg csak a saját lapjainkat lássuk.
+   Ez mindig kiírja mely játékos következik, és az Ok gombra kattintva szabadon játszhat.
+
+A kártyacserénél minden játékosnál, ki kell választani, hogy kinek hanyadik számú lapunkat adnánk (1-essel kezdve)
+Mivel egy kártyát nem lehet több embernek is adni, csak akkor történhet meg a csere, ha mindenkihez más lap sorszáma lett választva.
+
+A játék során értelemszerűen jelezve van minden szükséges információ. Ahhoz, hogy a saját kombinációját kiválassza
+azokra a kártyákra kell kattintani, amiket kijátszana, majd ha minden kiválaszott az ok gombra kattintani.
+A kiválasztást újra kattintással tudja visszamondani, ekkor láthatóan el is tűnik a lap kiválasztást jelző piros körvonala.
+Ha a sárkánnyal nyer kört, akkor azt egy ellenfelének kell adnia, elször ki kell választani, hogy kinek, majd ok gomb.
+Ha kijátsza a fecskét, kívánhat egy lapot, ennek az értékét kell először kiválasztani 2-től A-ig, majd ok gomb.
+Amennyiben a játékos nem kíván lapot kívánni, válassza a '-' opcióit.
+
+Ha egy játék véget ér, de nem véglegesen, és a Continue gombbal újat kezdenek,
+figyeljenek oda, hogy a játék nem kerül mentésre automatikusan csak a statisztikák.
+
+A statisztikák csak egy játék végén kerülnek mentésre.

@@ -1,0 +1,11 @@
+A401 Új állomás sikeres hozzáadása két állomás közé, csak közös vonal van
+
+A402 Új állomás sikeres hozzáadása két állomás közé, csak közös vonalak vannak
+
+A403 Új állomás sikeres hozzáadása két állomás közé, van közös vonal és van ami csak az egyikben van
+
+A404 Új állomás sikertelen létrehozása két állomás közé, nincs közös vonal
+
+A405 Új állomás sikertelen létrehozása két állomás közé, nem szomszédosak a közös vonalon
+
+A406 Új állomás sikertelen létrehozása két állomás közé, közös vonal két nem szomszédos végállomása

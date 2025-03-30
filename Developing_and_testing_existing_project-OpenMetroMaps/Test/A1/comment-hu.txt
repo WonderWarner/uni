@@ -1,0 +1,18 @@
+A101 Állomások sikeres összevonása: nem volt közös vonal
+- törlődik a másodjára megadott állomás
+- a vonalakon ahol eddig a második volt most az első lesz írva
+
+A102 Állomások sikeres összevonása: minden közös vonalú megálló szomszédos volt és csak közös vonalak voltak
+- törlődik a másodjára megadott állomás
+- a vonalakon ahol mindkettő szomszédosan volt, törlődik a másodlagos, az elsődleges marad
+
+A103 Állomások sikeres összevonása: minden közös vonalú megálló szomszédos volt
+- törlődik a másodjára megadott állomás
+- a vonalakon ahol mindkettő szomszédosan volt, törlődik a másodlagos, az elsődleges marad
+- a vonalakon ahol csak a másodlagos ment, mostmár az első lesz írva
+
+A104 Állomások sikertelen összevonása: van olyan vonal ami mindkettőn átmegy de nem szomszédos
+- nem változik a fájl
+
+A105 Állomások sikertelen összevonása: 2 hosszú vonal 2 állomása lett volna
+- nem változik a fájl

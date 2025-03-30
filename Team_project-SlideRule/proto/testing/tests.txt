@@ -1,0 +1,29 @@
+Prototípus tesztek:
+1. Átlépés oktatóhoz nem védő tárgyakkal 1
+2. Átlépés oktatóhoz nem védő tárgyakkal 2
+3. Átlépés oktatóhoz TVSZ-szel
+4. Átlépés oktatóhoz BeerGlass-szal
+5. Átlépés gázba nem védő tárgyakkal 1
+6. Átlépés gázba nem védő tárgyakkal 2
+7. Átlépés gázba Mask-kal
+8. Takarító átléptetése
+9. Oktató találkozása személyekkel és tárgyakkal
+10. Tárgy felvétele és lerakása
+11. Tárgyak időtelése
+12. Szobák módosítása
+13. Gázhoz kapcsolódó tárgyak aktiválása
+14. Transistor használata
+15. Bénított hallgató
+16. Elátkozott szoba
+17. Teli szoba
+18. Tanár és logarléc
+19. Cleaner és logarléc
+20. Cleaner átlép cursed szobába
+21. Sikertelen tranzisztor párosítás
+22. Ragacsos szoba
+23. Sikertelen kettéválás és egyesülés
+24. Takarító általi mozgatás
+25. Tárgyak eltűnése és aktivált rongy földön viselkedése
+26. Ragacsosság és sörösüveg
+27. Hallgató megvédi magát és nyer
+28. Játék állapotai és hamis Logarléc

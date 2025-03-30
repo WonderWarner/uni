@@ -1,0 +1,19 @@
+create room r1
+create room r2
+create room r3
+create student s
+create transistor t1
+create transistor t2
+neighbour r1 r2
+neighbour r2 r3
+addperson s r1
+add t1 s
+add t2 s
+activate t1 s
+activate t2 s
+drop t2 s
+enter r2 s
+enter r3 s
+activate t1 s
+status s
+status t1

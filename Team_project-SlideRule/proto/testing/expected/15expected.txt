@@ -1,0 +1,4 @@
+s
+location: r1
+itemsInHand: 
+stunRemaining: 5

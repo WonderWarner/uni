@@ -1,0 +1,8 @@
+stop_id,stop_name,stop_lat,stop_lon
+S1,Stop A1,47.51,19.01
+S2,Stop A2,47.51,19.02
+S3,Stop A3,47.51,19.03
+S4,Stop B1,47.50,19.01
+S5,Stop B2,47.50,19.02
+S6,Stop B3,47.50,19.03
+S7,New,47.511,19.02

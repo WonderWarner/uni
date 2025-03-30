@@ -1,0 +1,27 @@
+create room r
+create student s1
+create student s2
+create teacher t
+create rag rag
+create beerglass b
+create mask m
+addperson s1 r
+addperson s2 r
+addperson t r
+add rag s1
+activate rag s1
+setinterval timeremaining rag 2
+add b s2
+activate b s2
+add m s2
+activate m s2
+setremaining m 0
+elapsetime 1
+status s1
+status s2
+status t
+elapsetime 1
+status s1
+status t
+elapsetime 3
+status

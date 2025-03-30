@@ -1,0 +1,21 @@
+create room r1
+setroom r1 gas true
+create room r2
+create room r3
+create room r4
+create mask m
+create tvsz tv
+create beerglass b
+neighbour r1 r2
+neighbour r1 r3
+neighbour r1 r4
+neighbour r4 r1
+add m r1
+add tv r1
+add b r1
+status r1
+split r1 r5
+status r1
+status r5
+merge r1 r5 r6
+status r6

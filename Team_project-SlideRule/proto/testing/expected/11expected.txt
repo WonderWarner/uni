@@ -1,0 +1,21 @@
+s1
+location: r
+itemsInHand: rag, 
+stunRemaining: 0
+s2
+location: r
+itemsInHand: b, m, 
+stunRemaining: 0
+t
+location: r
+itemsInHand: 
+stunRemaining: 3
+s1
+location: r
+itemsInHand: 
+stunRemaining: 0
+t
+location: r
+itemsInHand: 
+stunRemaining: 2
+Game over

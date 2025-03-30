@@ -1,0 +1,9 @@
+A501 Megálló sikeres kettéosztása, 2 vonalból 1 az újba, végállomásnál
+
+A502 Megálló sikeres kettéosztása, 2 vonalból 1 az újba, nem végállomásnál
+
+A503 Megálló sikeres kettéosztása, 3 vonalból 1 az újba, végállomásnál
+
+A504 Megálló sikeres kettéosztása, 3 vonalból 1 az újba, nem végállomásnál
+
+A505 Megálló sikeres kettéosztása, 3 vonalból 2 az újba, 1 végállomás, 1 nem

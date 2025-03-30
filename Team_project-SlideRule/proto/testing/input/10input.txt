@@ -1,0 +1,20 @@
+create room r1
+create student s
+addperson s r1
+create tvsz t1
+create tvsz t2
+create tvsz t3
+create tvsz t4
+create tvsz t5
+create tvsz t6
+add t1 r1
+add t2 r1
+add t3 s
+add t4 s
+add t5 s
+add t6 s
+pickup t1 s
+pickup t2 s
+drop t6 s
+status r1
+status s

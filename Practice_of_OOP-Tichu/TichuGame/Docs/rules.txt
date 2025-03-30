@@ -1,0 +1,13 @@
+Az eredeti játékszabálytól való eltérések:
+   - A bombákat is csak akkor lehet kijátszani, ha a te köröd van.
+   - Kívánság teljesítéséhet a Phoenix-et nem kötelező használni
+   - Kívánság kötelező kielégítése csak akkor áll fent, 
+      ha a kör típusa Single vagy Straight,
+      vagy ha Pokerrel is ki tudod elégíteni
+
+A továbbiakban a játékszabály az eredetivel megegyezik.
+Olvasható a felhasználói útmutatóban, vagy az alábbi linken:
+
+https://www.ultraboardgames.com/tichu/
+
+Jó játékot!

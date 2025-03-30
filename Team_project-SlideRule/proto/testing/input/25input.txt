@@ -1,0 +1,26 @@
+create room r1
+create room r2
+neighbour r1 r2
+neighbour r2 r1
+create teacher t
+create mask m
+create beerglass b
+create rag r
+addperson t r1
+add m t
+setinterval activated m true
+setinterval timeremaining m 1
+setremaining m 0
+add b r2
+setinterval activated b true
+setinterval timeremaining b 1
+add r r2
+setinterval activated r true
+setinterval timeremaining r 1
+enter r2 t
+status r2
+status t
+elapsetime 1
+enter r1 t
+status r2
+status t

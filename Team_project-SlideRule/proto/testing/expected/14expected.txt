@@ -1,0 +1,8 @@
+s
+location: r1
+itemsInHand: 
+stunRemaining: 0
+t1
+location: r3
+holder: NULL
+pair: t2

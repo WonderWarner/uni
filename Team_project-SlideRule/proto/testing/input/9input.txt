@@ -1,0 +1,46 @@
+create room r1
+create room r2
+setroom r2 capacity 5
+create student s1
+create teacher t1
+create student s2
+create teacher t2
+create cleaner c2
+create rag rag
+create rag r
+create beerglass bg
+create mask m
+create falsemask fm
+create sliderule sr
+create falsesliderule fsr
+create tvsz tv
+create falsetvsz ftv
+create airfresher a
+create transistor t
+create camembert c
+neighbour r1 r2
+addperson s1 r1
+addperson t1 r1
+addperson s2 r2
+addperson t2 r2
+addperson c2 r2
+add rag s1
+activate rag s1
+add r r2
+add bg r2
+add m r2
+add fm r2
+add sr r2
+add fsr r2
+add tv r2
+add ftv r2
+add a r2
+add t r2
+add c r2
+enter r2 s1
+enter r2 t1
+status r1
+status r2
+status t1
+status t2
+status

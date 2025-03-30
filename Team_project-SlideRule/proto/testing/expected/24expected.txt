@@ -1,0 +1,27 @@
+r1
+neighbours: r2, 
+peopleInRoom: s1, 
+itemsInRoom: 
+gas: false
+cursed: false
+capacity: 1
+curseActive: false
+stickiness: 1
+r2
+neighbours: r1, r3, 
+peopleInRoom: s2, c, 
+itemsInRoom: 
+gas: false
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0
+r3
+neighbours: r2, 
+peopleInRoom: 
+itemsInRoom: 
+gas: false
+cursed: false
+capacity: 0
+curseActive: false
+stickiness: 0

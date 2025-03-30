@@ -1,0 +1,19 @@
+create room r1
+create room r2
+create student s
+create teacher t
+create falsetvsz ftv
+create airfresher a
+create camembert c
+create transistor tr
+create rag r
+neighbour r1 r2
+addperson s r1
+addperson t r2
+add ftv s
+add a s
+add c s
+add tr s
+add r s
+enter r2 s
+status

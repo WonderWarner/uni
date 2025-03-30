@@ -1,0 +1,20 @@
+create room r1
+create room r2
+neighbour r1 r2
+create student s
+addperson s r1
+create beerglass b
+add b s
+setinterval activated b true
+setinterval timeremaining b 1
+create teacher t
+addperson t r2
+create falsesliderule fsr
+add fsr r2
+pickup fsr t
+enter r2 s
+status r2
+pickup fsr s
+status
+elapsetime 1
+status

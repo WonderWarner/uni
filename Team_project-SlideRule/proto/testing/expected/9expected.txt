@@ -1,0 +1,27 @@
+r1
+neighbours: r2, 
+peopleInRoom: 
+itemsInRoom: 
+gas: false
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 0
+r2
+neighbours: 
+peopleInRoom: t2, c2, s1, t1, 
+itemsInRoom: r, bg, m, fm, sr, fsr, tv, ftv, a, t, c, 
+gas: false
+cursed: false
+capacity: 5
+curseActive: false
+stickiness: 2
+t1
+location: r2
+itemsInHand: 
+stunRemaining: 3
+t2
+location: r2
+itemsInHand: 
+stunRemaining: 3
+Game in progress

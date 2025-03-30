@@ -1,0 +1,11 @@
+r2
+neighbours: 
+peopleInRoom: t, s, 
+itemsInRoom: fsr, b, 
+gas: false
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 1
+Game in progress
+Game over

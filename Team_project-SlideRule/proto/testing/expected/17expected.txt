@@ -1,0 +1,9 @@
+r2
+neighbours: 
+peopleInRoom: 
+itemsInRoom: 
+gas: false
+cursed: false
+capacity: 0
+curseActive: false
+stickiness: 0

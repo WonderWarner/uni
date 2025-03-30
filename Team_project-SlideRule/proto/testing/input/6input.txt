@@ -1,0 +1,12 @@
+create room r1
+create room r2
+setroom r2 gas true
+create student s
+create beerglass b
+create falsemask fm
+neighbour r1 r2
+addperson s r1
+add b s
+add fm s
+enter r2 s
+status s

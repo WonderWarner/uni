@@ -1,0 +1,1 @@
+MERGE;Stop A2;Stop B2

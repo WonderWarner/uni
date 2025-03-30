@@ -1,0 +1,11 @@
+create room r1
+create room r2
+neighbour r1 r2
+neighbour r2 r1
+create student s
+addperson s r1
+split r1 r3
+merge r1 r2 r4
+merge r2 r1 r5
+status r1
+status r2

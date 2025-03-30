@@ -1,0 +1,20 @@
+A201 Állomás sikeres törlése: csak végállomás
+- töröljük az állomás létrehozását
+- töröljük a vonalon mint megálló
+
+A202 Állomás sikeres törlése: csak menet közbeni állomás
+- töröljük az állomás létrehozását
+- töröljük a vonalon mint megálló
+
+A203 Állomás sikeres törlése: végállomás is és menet közbeni állomás is
+- töröljük az állomás létrehozását
+- töröljük a vonalakon mint megálló
+
+A204 Állomás sikertelen törlése: 2 hosszú vonal 2 állomásából az egyik és nem megy más vonal rajta
+- nincs változás
+
+A205 Állomás sikertelen törlése: 2 hosszú vonal 2 állomásából az egyik de más vonal is megy rajta aminek közbenső állomása
+- nincs változás
+
+A206 Állomás sikertelen törlése: 2 hosszú vonal 2 állomásából az egyik de más vonal is megy rajta aminek végállomása
+- nincs változás

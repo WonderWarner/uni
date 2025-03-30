@@ -1,0 +1,14 @@
+create room r1
+create room r2
+setroom r2 gas true
+setroom r2 cursed true
+setroom r2 stickiness 3
+elapsetime 5
+create student s
+create cleaner c
+addperson s r2
+addperson c r1
+neighbour r1 r2
+neighbour r2 r1
+enter r2 c
+status r2

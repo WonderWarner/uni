@@ -1,0 +1,4 @@
+route_id,route_short_name,route_desc,route_type,route_color,route_long_name
+R1,1,Line 1,0,FF0000,
+R2,2,Line 2,0,FFD800,
+R3,3,Line 3,0,0080FF,

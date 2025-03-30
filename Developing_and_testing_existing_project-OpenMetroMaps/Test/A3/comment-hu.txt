@@ -1,0 +1,10 @@
+A301 Új állomás hozzáadása sikeresen, vonal elejére kell hozzáadni
+
+A302 Új állomás hozzáadása sikeresen, vonal végére kell hozzáadni
+
+A303 Új állomás hozzáadása sikeresen, több vonalhoz is hozzá kell adni
+
+A304 Új állomás hozzáadása sikeresen, van olyan vonal amihez hozzá kell adni és van olyan vonal amihez nem
+
+A305 Új állomás sikertelen hozzáadása, egy vonalhoz sem lehet hozzáadni, mert semminek nem végállomása a kijelölt
+- Nincs változás

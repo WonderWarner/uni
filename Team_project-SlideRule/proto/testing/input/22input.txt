@@ -1,0 +1,8 @@
+create room r
+setroom r stickiness 6
+create student s
+addperson s r
+create tvsz t
+add t r
+pickup t s
+status s

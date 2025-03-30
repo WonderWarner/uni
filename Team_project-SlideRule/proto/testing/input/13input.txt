@@ -1,0 +1,16 @@
+create room r1
+create student s
+create mask m
+create camembert c
+create airfresher a
+addperson s r1
+add c s
+add a s
+add m s
+activate m s
+activate c s
+status r1
+activate a s
+status r1
+status s
+status m

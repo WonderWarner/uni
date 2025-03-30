@@ -1,0 +1,15 @@
+create room r1
+create room r2
+neighbour r1 r2
+setroom r1 cursed true
+create student s1
+create student s2
+addperson s1 r1
+addperson s2 r1
+enter r2 s1
+elapsetime 5
+enter r2 s2
+status r1
+elapsetime 5
+enter r2 s2
+status r1

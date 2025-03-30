@@ -1,0 +1,19 @@
+create room r1
+setroom r1 capacity 1
+create room r2
+create room r3
+setroom r3 capacity 0
+neighbour r1 r2
+neighbour r2 r1
+neighbour r2 r3
+neighbour r3 r2
+create student s1
+create student s2
+create cleaner c
+addperson s1 r2
+addperson s2 r2
+addperson c r1
+enter r2 c
+status r1
+status r2
+status r3

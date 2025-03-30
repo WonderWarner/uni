@@ -1,0 +1,17 @@
+s
+location: r1
+itemsInHand: t1, b, 
+stunRemaining: 0
+s
+location: r1
+itemsInHand: b, 
+stunRemaining: 0
+r1
+neighbours: r2, 
+peopleInRoom: s, t, 
+itemsInRoom: t1, 
+gas: false
+cursed: false
+capacity: 3
+curseActive: false
+stickiness: 5
