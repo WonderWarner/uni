@@ -16,3 +16,7 @@ The spiral path is defined as follows:
 - Next, move right to left along the last row.
 - Then move bottom to top along the first column, stopping at the second row, first column.
 - Once the outermost rows and columns have been traversed, the process recursively continues inside the remaining (n-2) × (n-2) square, starting from the second row, second column.
+
+For instance, the following picture describes a puzzle and its only solution:
+
+![](example.png)

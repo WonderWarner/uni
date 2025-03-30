@@ -5,6 +5,8 @@
 #### Language:
 **TypeScript with React**
 
+#### Note: I also made my own MongoDB database and TypeScript server with client-server communication throught defined package format and port.
+
 #### Features:  
 - **Project Creation & Task Assignment:** Create projects, assign tasks, add status updates and deadlines, and store them persistently.  
 - **User Profile & Settings:** Modify the application's appearance, manage user profiles.  
@@ -23,6 +25,26 @@
 - **Statistics Page.**  
 - **Interface for Managing Comments.**
 
-## I also made my own MongoDB database and TypeScript server with client-server communication throught defined package format and port.
+### Login screen
+![](login.png)
 
-// TODO pics
+### Dashboard
+![](dashboard.png)
+
+### Settings
+![](settings.png)
+
+### List of projects
+![](projects.png)
+
+### Tasks of a project
+![](tasks.png)
+
+### Creating new task
+![](newtask.png)
+
+### Comments of a task
+![](comments.png)
+
+### Statistics of profile
+![](statistics.png)
