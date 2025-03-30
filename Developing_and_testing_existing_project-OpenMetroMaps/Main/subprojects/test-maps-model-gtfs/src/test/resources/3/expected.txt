@@ -1,0 +1,2 @@
+Stop A @ 1;Stop D @ 1;Stop E @ 1;Stop C @ 1
+Stop A @ 3;Stop D @ 3;Stop E @ 3;Stop C @ 3

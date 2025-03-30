@@ -1,0 +1,8 @@
+org\openmetromaps\imports\config\osm\Tag.class
+org\openmetromaps\imports\config\reader\DesktopImportConfigReader.class
+org\openmetromaps\imports\config\Processing.class
+org\openmetromaps\imports\config\ImportConfig.class
+org\openmetromaps\imports\config\osm\OsmSource.class
+org\openmetromaps\imports\config\Source.class
+org\openmetromaps\imports\config\osm\Routes.class
+org\openmetromaps\imports\config\reader\ImportConfigReader.class

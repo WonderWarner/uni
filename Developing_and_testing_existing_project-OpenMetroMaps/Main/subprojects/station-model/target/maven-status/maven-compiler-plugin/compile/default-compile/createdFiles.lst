@@ -1,0 +1,12 @@
+org\openmetromaps\stations\Change.class
+org\openmetromaps\stations\StationModels.class
+org\openmetromaps\stations\StationModels$1.class
+org\openmetromaps\stations\LineTowardsMatcher.class
+org\openmetromaps\stations\Exit.class
+org\openmetromaps\stations\LineWithOrientation.class
+org\openmetromaps\stations\StationModel.class
+org\openmetromaps\stations\Location.class
+org\openmetromaps\stations\Matcher.class
+org\openmetromaps\stations\RegexMatcher.class
+org\openmetromaps\stations\SimpleMatcher.class
+org\openmetromaps\stations\StationUtil.class

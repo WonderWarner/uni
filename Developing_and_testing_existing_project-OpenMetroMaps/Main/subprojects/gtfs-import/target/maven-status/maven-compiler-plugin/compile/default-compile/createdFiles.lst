@@ -1,0 +1,7 @@
+org\openmetromaps\gtfs\StopIdList.class
+org\openmetromaps\gtfs\DraftModel.class
+org\openmetromaps\gtfs\StopRef.class
+org\openmetromaps\gtfs\DraftStation.class
+org\openmetromaps\gtfs\GtfsBomRemover.class
+org\openmetromaps\gtfs\DraftLine.class
+org\openmetromaps\gtfs\GtfsImporter.class

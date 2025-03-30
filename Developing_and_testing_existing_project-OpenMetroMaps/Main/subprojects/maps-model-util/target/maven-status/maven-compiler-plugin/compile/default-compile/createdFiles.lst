@@ -1,0 +1,4 @@
+org\openmetromaps\maps\StationUtil.class
+org\openmetromaps\maps\LineComparatorByName.class
+org\openmetromaps\maps\MapModelUtil.class
+org\openmetromaps\maps\StationComparatorByName.class

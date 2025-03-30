@@ -1,0 +1,4 @@
+org\openmetromaps\rawstations\Location.class
+org\openmetromaps\rawstations\Exit.class
+org\openmetromaps\rawstations\RawStationModel.class
+org\openmetromaps\rawstations\Change.class

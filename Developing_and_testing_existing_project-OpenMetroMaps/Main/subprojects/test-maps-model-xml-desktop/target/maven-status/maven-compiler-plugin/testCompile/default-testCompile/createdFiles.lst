@@ -1,0 +1,3 @@
+org\openmetromaps\maps\xml\TestConvert.class
+org\openmetromaps\maps\xml\TestReadXmlModel.class
+org\openmetromaps\maps\xml\TestConvertCoordinates.class

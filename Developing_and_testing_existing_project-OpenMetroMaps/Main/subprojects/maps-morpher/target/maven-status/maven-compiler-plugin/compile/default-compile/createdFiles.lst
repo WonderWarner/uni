@@ -1,0 +1,15 @@
+org\openmetromaps\maps\morpher\actions\help\LicenseAction.class
+org\openmetromaps\maps\morpher\actions\view\ShowStationCentersAction.class
+org\openmetromaps\maps\morpher\actions\file\Open1Action.class
+org\openmetromaps\maps\morpher\actions\file\Open2Action.class
+org\openmetromaps\maps\morpher\MapMorpher$1.class
+org\openmetromaps\maps\morpher\MapMorpher.class
+org\openmetromaps\maps\morpher\actions\help\AboutAction.class
+org\openmetromaps\maps\morpher\actions\view\ShowLabelsAction.class
+org\openmetromaps\maps\morpher\actions\file\ExitAction.class
+org\openmetromaps\maps\morpher\actions\MapMorpherBooleanAction.class
+org\openmetromaps\maps\morpher\about\AboutDialog.class
+org\openmetromaps\maps\morpher\actions\MapMorpherAction.class
+org\openmetromaps\maps\morpher\MapMorhCalculator.class
+org\openmetromaps\maps\morpher\about\AboutDialog$Page.class
+org\openmetromaps\maps\morpher\MapMorphing.class

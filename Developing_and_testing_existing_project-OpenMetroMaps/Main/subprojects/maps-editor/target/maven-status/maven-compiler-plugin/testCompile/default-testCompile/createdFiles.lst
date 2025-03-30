@@ -1,0 +1,13 @@
+org\openmetromaps\maps\editor\TestLineSelectionDialog.class
+org\openmetromaps\maps\editor\TestMapEditor.class
+org\openmetromaps\maps\editor\config\TestVolatileConfigReader.class
+org\openmetromaps\maps\editor\TestDocumentPropertiesDialog.class
+org\openmetromaps\maps\editor\TestLinesPanel.class
+org\openmetromaps\maps\editor\TestDocumentPropertiesPanel.class
+org\openmetromaps\maps\editor\algorithms\TestFindConsecutive.class
+org\openmetromaps\maps\editor\config\TestPaths.class
+org\openmetromaps\maps\editor\TestStationPanel.class
+org\openmetromaps\maps\editor\config\TestPermanentConfigReader.class
+org\openmetromaps\maps\editor\config\TestVolatileConfigWriter.class
+org\openmetromaps\maps\editor\TestViewportPanel.class
+org\openmetromaps\maps\editor\config\TestPermanentConfigWriter.class

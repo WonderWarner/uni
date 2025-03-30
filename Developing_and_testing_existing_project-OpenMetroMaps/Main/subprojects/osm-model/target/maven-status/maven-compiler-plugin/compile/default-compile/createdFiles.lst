@@ -1,0 +1,10 @@
+org\openmetromaps\model\osm\LinesAnalyzer.class
+org\openmetromaps\model\osm\ModelBuilder.class
+org\openmetromaps\model\osm\DraftModel.class
+org\openmetromaps\model\osm\DraftStation.class
+org\openmetromaps\model\osm\filter\RouteFilter.class
+org\openmetromaps\model\osm\Fix.class
+org\openmetromaps\model\osm\DraftLine.class
+org\openmetromaps\model\osm\StopsAnalyzer.class
+org\openmetromaps\model\osm\FileModelBuilder.class
+org\openmetromaps\model\osm\filter\RouteTypeFilter.class

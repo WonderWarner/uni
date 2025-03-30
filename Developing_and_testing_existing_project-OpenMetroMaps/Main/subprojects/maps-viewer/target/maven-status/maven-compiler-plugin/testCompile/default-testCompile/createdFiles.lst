@@ -1,0 +1,3 @@
+org\openmetromaps\maps\viewer\TestMapViewer.class
+org\openmetromaps\maps\viewer\TestMapViewerWithScaleDown.class
+org\openmetromaps\maps\viewer\TestMapViewerWithScaleUp.class

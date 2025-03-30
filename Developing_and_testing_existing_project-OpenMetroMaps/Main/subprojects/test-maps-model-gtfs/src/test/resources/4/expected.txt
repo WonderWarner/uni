@@ -1,0 +1,1 @@
+Stop A @ 1;Stop B @ 1;Stop B @ 2;Stop C @ 2

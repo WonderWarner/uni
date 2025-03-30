@@ -1,0 +1,8 @@
+org\openmetromaps\maps\xml\XmlLine.class
+org\openmetromaps\maps\xml\XmlEdges.class
+org\openmetromaps\maps\xml\XmlView.class
+org\openmetromaps\maps\xml\XmlViewStation.class
+org\openmetromaps\maps\xml\XmlStation.class
+org\openmetromaps\maps\xml\XmlModelReader.class
+org\openmetromaps\maps\xml\XmlInterval.class
+org\openmetromaps\maps\xml\XmlModel.class

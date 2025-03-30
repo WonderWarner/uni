@@ -1,0 +1,4 @@
+org\openmetromaps\osm\OverpassApiImporter$1.class
+org\openmetromaps\osm\OverpassApiDownloader$1.class
+org\openmetromaps\osm\OverpassApiDownloader.class
+org\openmetromaps\osm\OverpassApiImporter.class

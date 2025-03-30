@@ -1,0 +1,7 @@
+org\openmetromaps\newformat\Ids.class
+org\openmetromaps\newformat\NewFormatPainter.class
+org\openmetromaps\newformat\painting\path\MoveTo.class
+org\openmetromaps\newformat\painting\NewFormatPath.class
+org\openmetromaps\newformat\NewFormatWriter.class
+org\openmetromaps\newformat\painting\path\LineTo.class
+org\openmetromaps\newformat\painting\path\PathOperation.class

@@ -1,0 +1,5 @@
+org\openmetromaps\maps\TestExportPngBerlin.class
+org\openmetromaps\maps\TestScrollableAdvancedPanel.class
+org\openmetromaps\maps\TestSimplePanel.class
+org\openmetromaps\maps\PrintTestData.class
+org\openmetromaps\maps\TestScrollableSimplePanel.class

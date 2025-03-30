@@ -1,0 +1,5 @@
+de\topobyte\xml\domabstraction\iface\IDocumentFactory.class
+de\topobyte\xml\domabstraction\iface\IElement.class
+de\topobyte\xml\domabstraction\iface\IDocument.class
+de\topobyte\xml\domabstraction\iface\INodeList.class
+de\topobyte\xml\domabstraction\iface\ParsingException.class

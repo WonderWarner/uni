@@ -1,0 +1,8 @@
+org\openmetromaps\osm\OverpassQueries.class
+org\openmetromaps\osm\TestImportOverpassVbbRE1ViaTags.class
+org\openmetromaps\osm\TestDownloadOverpassBerlinSU.class
+org\openmetromaps\osm\TestImportOverpassBerlinSU.class
+org\openmetromaps\osm\TestDownloadOverpassVbbRE1.class
+org\openmetromaps\osm\TestImportOverpassVbbRegio.class
+org\openmetromaps\osm\TestDownloadOverpassVbbRegio.class
+org\openmetromaps\osm\TestImportOverpassVbbRE1.class

@@ -1,0 +1,4 @@
+org\openmetromaps\osm\FilterRelevantData.class
+org\openmetromaps\osm\FilterRegion.class
+org\openmetromaps\osm\Filter.class
+org\openmetromaps\osm\Collector.class
