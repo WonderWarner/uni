@@ -1,0 +1,40 @@
+AAAAAA;Arany Janos;E1;I01
+BBBBBB;Babits Mihaly;E1;I01
+CCCCCC;Csokonai Vitez Mihaly;E2;I02
+DDDDDD;Dosztojevkszij;E1;IMSC1
+EEEEEE;Edgar Allen Poe;E1;IMSC1
+FFFFFF;Fazekas Mihaly;E2;I02
+GGGGGG;George Orwell;E1;I03
+HHHHHH;Homerosz;E2;IMSC2
+IIIIII;Illyes Gyula;E2;IMSC2
+JJJJJJ;Jokai Mor;E1;I03
+KKKKKK;Karinthy Frigyes;E2;I02
+LLLLLL;Leiner Laura;E1;I01
+MMMMMM;Madach Imre;E2;IMSC2
+NNNNNN;Nagy Laszlo;E2;I04
+OOOOOO;Oscar Wilde;E1;IMSC3
+PPPPPP;Petofi Sandor;E1;IMSC3
+QQQQQQ;Quentin Tarantino;E2;IMSC2
+RRRRRR;Radnoti Miklos;E2;I04
+SSSSSS;Stephen King;E2;I02
+TTTTTT;Tamasi Aron;E1;I01
+UUUUUU;Ungvari Tamas;E1;IMSC3
+VVVVVV;Victor Hugo;E1;I03
+WWWWWW;Weores Sandor;E2;IMSC2
+XXXXXX;Xabi Alonso;E2;I02
+YYYYYY;Yoko Ono;E2;I04
+ZZZZZZ;Zelk Zoltan;E1;I03
+000000;J. K. Rowling;E2;I02
+111111;Krudy Gyula;E2;IMSC2
+222222;Kosztolanyi Dezso;E2;IMSC2
+333333;Vorosmarty Mihaly;E1;IMSC3
+444444;Kolcsey Ferenc;E2;I04
+555555;Jozsef Attila;E1;I03
+666666;Mikszath Kalman;E1;I01
+I4RZ0O;Tomori Peter Andras;E1;IMSC1
+ABCABC;Anonymus;E2;I04
+123456;Moricz Zsigmond;E1;I01
+NEPTUN;William Shakespeare;E1;IMSC1
+ASDASD;Jean-Jacques Rousseau;E1;I03
+HUNHUN;Aldous Huxley;E2;I02
+BMEBME;Thomas Mann;E1;I01

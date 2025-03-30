@@ -1,0 +1,15 @@
+NEPTUN: DDDDDD
+NEV: Dosztojevkszij
+Eloadascsoport: E1; eloado: Kohari Zsolt
+Gyakorlatcsoport: IMSC1; gyakorlatvezeto: Szommer Zsombor
+
+Hianyzasok: eloadas 0 db; gyakorlat 2 db; labor 6 db
+Kis ZH eredmenyek: 1.: 10 pont; 2.: 10 pont; 3.: 10 pont; 4.: 10 pont; 5.: 10 pont; 6.: 10 pont
+1. ZH: 34 pont IMSC: 6 pont; 2. ZH: 40 pont IMSC: 8 pont
+Pót ZH: 0 pont; szorgalmi pontok: 5 pont
+Nagy hazi kovetelmeny: Elfogadva; Pontszam: 20 pont
+
+Alairas: Megtagadva
+Osszesitett pontszam: 159 pont
+Erdemjegy: 1
+	iMSc pontok: 0 pont

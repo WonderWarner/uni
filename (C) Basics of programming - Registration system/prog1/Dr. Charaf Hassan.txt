@@ -1,0 +1,50 @@
+NEV: Dr. Charaf Hassan
+
+Csoportok es hallgatoik:
+1.: IMSC2
+Hallgatok:
+	HHHHHH, Homerosz
+	IIIIII, Illyes Gyula
+	MMMMMM, Madach Imre
+	QQQQQQ, Quentin Tarantino
+	WWWWWW, Weores Sandor
+	111111, Krudy Gyula
+	222222, Kosztolanyi Dezso
+A csoport hallgatóinak atlaga (pontszam, jegy): 112.14, 2.57
+
+2.: I03
+Hallgatok:
+	GGGGGG, George Orwell
+	JJJJJJ, Jokai Mor
+	VVVVVV, Victor Hugo
+	ZZZZZZ, Zelk Zoltan
+	555555, Jozsef Attila
+	ASDASD, Jean-Jacques Rousseau
+A csoport hallgatóinak atlaga (pontszam, jegy): 80.50, 1.83
+
+3.: E2
+Hallgatok:
+	CCCCCC, Csokonai Vitez Mihaly
+	FFFFFF, Fazekas Mihaly
+	HHHHHH, Homerosz
+	IIIIII, Illyes Gyula
+	KKKKKK, Karinthy Frigyes
+	MMMMMM, Madach Imre
+	NNNNNN, Nagy Laszlo
+	QQQQQQ, Quentin Tarantino
+	RRRRRR, Radnoti Miklos
+	SSSSSS, Stephen King
+	WWWWWW, Weores Sandor
+	XXXXXX, Xabi Alonso
+	YYYYYY, Yoko Ono
+	000000, J. K. Rowling
+	111111, Krudy Gyula
+	222222, Kosztolanyi Dezso
+	444444, Kolcsey Ferenc
+	ABCABC, Anonymus
+	HUNHUN, Aldous Huxley
+A csoport hallgatóinak atlaga (pontszam, jegy): 96.26, 2.68
+
+Az oktato csoportjainak osszatlaga:
+Atlag pontszam: 96.78 pont
+Atlag jegy: 2.50

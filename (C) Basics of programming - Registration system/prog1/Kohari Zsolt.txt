@@ -1,0 +1,31 @@
+NEV: Kohari Zsolt
+
+Csoportok es hallgatoik:
+1.: E1
+Hallgatok:
+	AAAAAA, Arany Janos
+	BBBBBB, Babits Mihaly
+	DDDDDD, Dosztojevkszij
+	EEEEEE, Edgar Allen Poe
+	GGGGGG, George Orwell
+	JJJJJJ, Jokai Mor
+	LLLLLL, Leiner Laura
+	OOOOOO, Oscar Wilde
+	PPPPPP, Petofi Sandor
+	TTTTTT, Tamasi Aron
+	UUUUUU, Ungvari Tamas
+	VVVVVV, Victor Hugo
+	ZZZZZZ, Zelk Zoltan
+	333333, Vorosmarty Mihaly
+	555555, Jozsef Attila
+	666666, Mikszath Kalman
+	I4RZ0O, Tomori Peter Andras
+	123456, Moricz Zsigmond
+	NEPTUN, William Shakespeare
+	ASDASD, Jean-Jacques Rousseau
+	BMEBME, Thomas Mann
+A csoport hallgatóinak atlaga (pontszam, jegy): 93.95, 2.05
+
+Az oktato csoportjainak osszatlaga:
+Atlag pontszam: 93.95 pont
+Atlag jegy: 2.05

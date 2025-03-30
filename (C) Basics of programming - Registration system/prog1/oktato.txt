@@ -1,0 +1,5 @@
+Kohari Zsolt;1;E1
+Szommer Zsombor;2;IMSC1;I04
+Dr. Charaf Hassan;3;IMSC2;I03;E2
+Szegletes Luca;5;IMSC3;I06;I02;I01;NEMET
+Dr. Pohl Laszlo;2;E3;I05
