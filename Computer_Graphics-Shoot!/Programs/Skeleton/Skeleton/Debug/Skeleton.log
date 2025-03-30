@@ -1,0 +1,110 @@
+﻿  soccer.cpp
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\framework.h(165,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\gameengine.h(54,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\gameengine.h(53,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(232,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(241,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(251,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(251,39): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(271,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(280,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(291,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(304,11): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(320,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(321,11): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(341,11): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(353,11): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(353,29): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(357,43): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(367,20): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(367,34): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\geometry.h(383,15): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\Object.h(12,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\Object.h(74,11): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.h(20,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'soccer.cpp')
+  
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(5,25): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(5,20): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(5,15): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(6,26): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(42,20): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(42,15): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(44,68): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(44,114): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(44,74): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(49,88): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(49,154): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(49,94): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(54,29): warning C4305: '=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(61,34): warning C4305: '=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(72,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(80,61): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(80,56): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(80,51): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(82,30): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(82,24): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(85,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(85,45): warning C4305: '+=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(94,30): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(94,24): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(95,35): warning C4305: '=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(100,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(100,45): warning C4305: '+=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(102,37): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(102,31): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(111,74): warning C4305: '+=': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(113,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(113,37): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(113,31): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(147,36): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(147,31): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(147,26): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(149,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(150,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\Skeleton\soccer.cpp(157,43): warning C4305: '+=': truncation from 'double' to 'float'
+  Skeleton.vcxproj -> D:\UNI\02_Grafika\Házik\hf5\VEGLEGES\Programs\Skeleton\bin\Skeleton.exe
