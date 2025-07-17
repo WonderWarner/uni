@@ -1,0 +1,522 @@
+<opsa-mef author="FTEdit">
+    <define-parameter name="Panasonic NCR18650 GA Battery">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000000139"/>
+    </define-parameter>
+    <define-parameter name="Tattu 6S 15C LiPo Battery">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000001389"/>
+    </define-parameter>
+    <define-parameter name="RLX-FHS Radio Module">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000000364"/>
+    </define-parameter>
+    <define-parameter name="SIL 2 CPU">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000000278"/>
+    </define-parameter>
+    <define-parameter name="Kacise KS3ARG02D Gyroscope">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000027778"/>
+    </define-parameter>
+    <define-parameter name="3DM-RQ1-45 GPS">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000001543"/>
+    </define-parameter>
+    <define-parameter name="MN505-S IP45 Engine">
+        <label>Multirotor Fixed Wing UAV Motor KV380</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000092593"/>
+    </define-parameter>
+    <define-parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000024074"/>
+    </define-parameter>
+    <define-parameter name="BFS-U3-50S5M IR Sensor">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="exp"/>
+        </attributes>
+        <float value="0.000000006883"/>
+    </define-parameter>
+    <define-parameter name="Emergency Landing Distribution">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="const"/>
+        </attributes>
+        <float value="0.000000277778"/>
+    </define-parameter>
+    <define-parameter name="Dangerous Zone Distribution">
+        <attributes>
+            <attribute name="keep" value="false"/>
+            <attribute name="type" value="const"/>
+        </attributes>
+        <float value="0.000002777778"/>
+    </define-parameter>
+    <define-basic-event name="Primary Battery Error">
+        <label>Physical failure of the primary battery</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Panasonic NCR18650 GA Battery"/>
+    </define-basic-event>
+    <define-basic-event name="Secondary Battery Error">
+        <label>Physical failure of the secondary battery</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Tattu 6S 15C LiPo Battery"/>
+    </define-basic-event>
+    <define-basic-event name="Radio Module Failure">
+        <label>Failure due to Radio Module</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="RLX-FHS Radio Module"/>
+    </define-basic-event>
+    <define-basic-event name="CPU A Failure">
+        <label>Computational failure due to physical error of CPU A</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="SIL 2 CPU"/>
+    </define-basic-event>
+    <define-basic-event name="CPU B Failure">
+        <label>Computational failure due to physical error of CPU B</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="SIL 2 CPU"/>
+    </define-basic-event>
+    <define-basic-event name="Gyroscope A Failure">
+        <label>Physical failure of Gyroscope A</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Kacise KS3ARG02D Gyroscope"/>
+    </define-basic-event>
+    <define-basic-event name="Gyroscope B Failure">
+        <label>Physical failure of Gyroscope B</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Kacise KS3ARG02D Gyroscope"/>
+    </define-basic-event>
+    <define-basic-event name="Gyroscope C Failure">
+        <label>Physical failure of Gyroscope C</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Kacise KS3ARG02D Gyroscope"/>
+    </define-basic-event>
+    <define-basic-event name="GPS Failure">
+        <label>Physical failure of the GPS</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="3DM-RQ1-45 GPS"/>
+    </define-basic-event>
+    <define-basic-event name="Engine A Failure">
+        <label>Physical failure of Engine A</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="MN505-S IP45 Engine"/>
+    </define-basic-event>
+    <define-basic-event name="Propeller A Failure">
+        <label>Physical failure of Propeller A</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-basic-event name="Engine B Failure">
+        <label>Physical failure of Engine B</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="MN505-S IP45 Engine"/>
+    </define-basic-event>
+    <define-basic-event name="Propeller B Failure">
+        <label>Physical failure of Propeller B</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-basic-event name="Propeller C Failure">
+        <label>Physical failure of Propeller C</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-basic-event name="Engine D Failure">
+        <label>Physical failure of Engine D</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="MN505-S IP45 Engine"/>
+    </define-basic-event>
+    <define-basic-event name="Propeller D Failure">
+        <label>Physical failure of Propeller D</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-basic-event name="IR Failure">
+        <label>Physical failure of the IR Sensor</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="BFS-U3-50S5M IR Sensor"/>
+    </define-basic-event>
+    <define-basic-event name="Emergency Landing">
+        <label>Chance of an Emergency Landing</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Emergency Landing Distribution"/>
+    </define-basic-event>
+    <define-basic-event name="Dangerous Zone">
+        <label>Chance of emergency landing in a dangerous zone</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Dangerous Zone Distribution"/>
+    </define-basic-event>
+    <define-basic-event name="Engine C Failure">
+        <label>Physical failure of Engine C</label>
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="MN505-S IP45 Engine"/>
+    </define-basic-event>
+    <define-basic-event name="Event1">
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-basic-event name="Event2">
+        <attributes>
+            <attribute name="keep" value="false"/>
+        </attributes>
+        <parameter name="Mejzlik Carbon Fiber 16x5.4 Propeller"/>
+    </define-basic-event>
+    <define-fault-tree name="Battery">
+        <label>Error of the batteries</label>
+        <attributes>
+            <attribute name="top-event" value="Battery Error"/>
+        </attributes>
+        <define-gate name="Battery Error">
+            <label>Physical failure of the batteries</label>
+            <and>
+                <basic-event name="Primary Battery Error"/>
+                <basic-event name="Secondary Battery Error"/>
+            </and>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Radio Module">
+        <label>Failure of the Radio Module</label>
+        <attributes>
+            <attribute name="top-event" value="Radio Module Error"/>
+        </attributes>
+        <define-gate name="Radio Module Error">
+            <label>Failure of the Radio Module</label>
+            <or>
+                <basic-event name="Radio Module Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="CPUs">
+        <label>Failure of the CPUs</label>
+        <attributes>
+            <attribute name="top-event" value="CPUs Error"/>
+        </attributes>
+        <define-gate name="CPU B Error">
+            <label>Failure of CPU B</label>
+            <or>
+                <basic-event name="CPU B Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="CPU A Error">
+            <label>Failure of CPU A</label>
+            <or>
+                <basic-event name="CPU A Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="CPUs Error">
+            <label>Failure of the CPUs</label>
+            <and>
+                <gate name="CPU A Error"/>
+                <gate name="CPU B Error"/>
+            </and>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="6D Sensors">
+        <label>Error of the gyroscopes and GPS sensor, that provide 6D location data for navigation</label>
+        <attributes>
+            <attribute name="top-event" value="6D Sensors Error"/>
+        </attributes>
+        <define-gate name="GPS Error">
+            <label>Faiure of the GPS</label>
+            <or>
+                <basic-event name="GPS Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="Gyroscopes Failure">
+            <label>Physical failure of at least 2 of the 3 Gyroscopes</label>
+            <atleast min="2">
+                <basic-event name="Gyroscope A Failure"/>
+                <basic-event name="Gyroscope B Failure"/>
+                <basic-event name="Gyroscope C Failure"/>
+            </atleast>
+        </define-gate>
+        <define-gate name="Gyroscope Error">
+            <label>Failure of the Gyroscopes</label>
+            <or>
+                <gate name="Gyroscopes Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="6D Sensors Error">
+            <label>Error of the gyroscopes and GPS sensor, that provide 6D location data for navigation</label>
+            <or>
+                <gate name="Gyroscope Error"/>
+                <gate name="GPS Error"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Navigation">
+        <label>Bad navigation of the Drone</label>
+        <attributes>
+            <attribute name="top-event" value="Navigational Error"/>
+        </attributes>
+        <define-gate name="Navigational Error">
+            <label>Bad navigation of the Drone</label>
+            <or>
+                <gate name="Radio Module"/>
+                <gate name="CPUs"/>
+                <gate name="6D Sensors"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Diagnostic">
+        <label>Error of the Diagnostic System</label>
+        <attributes>
+            <attribute name="top-event" value="Diagnostic Error"/>
+        </attributes>
+        <define-gate name="Wrong Diagnostic Data">
+            <label>The Diagnostic Data could be sent, but contains false information</label>
+            <or>
+                <gate name="6D Sensors"/>
+                <gate name="CPUs"/>
+            </or>
+        </define-gate>
+        <define-gate name="Diagnostic Error">
+            <label>Error of the Diagnostic System due to wrong or unsent data</label>
+            <or>
+                <gate name="Wrong Diagnostic Data"/>
+                <gate name="Radio Module"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Rotor A">
+        <label>Error of Rotor System A consisting of Engine A, Propeller A, the CPUs and batteries</label>
+        <attributes>
+            <attribute name="top-event" value="Rotor A Error"/>
+        </attributes>
+        <define-gate name="Engine A Error">
+            <label>Error of Engine A</label>
+            <or>
+                <basic-event name="Engine A Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="Rotor A Error">
+            <label>Error of Rotor System A consisting of Engine A, Propeller A, the CPUs and batteries</label>
+            <or>
+                <gate name="Engine A Error"/>
+                <basic-event name="Propeller A Failure"/>
+                <gate name="CPUs"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Landing">
+        <label>Error of the Drone causing unintended landing</label>
+        <attributes>
+            <attribute name="top-event" value="Unintended Landing"/>
+        </attributes>
+        <define-gate name="IR Error">
+            <label>Error of the IR Sensor</label>
+            <or>
+                <basic-event name="IR Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="IR Error during Emergency">
+            <label>Error of the IR Sensor during an Emergency Landing</label>
+            <and>
+                <gate name="IR Error"/>
+                <basic-event name="Emergency Landing"/>
+                <basic-event name="Dangerous Zone"/>
+            </and>
+        </define-gate>
+        <define-gate name="Sensor Error">
+            <label>Unintended landing due to a sensor's error</label>
+            <or>
+                <gate name="6D Sensors"/>
+                <gate name="IR Error during Emergency"/>
+            </or>
+        </define-gate>
+        <define-gate name="DA Error">
+            <label>Error of both D and A (left) Rotors</label>
+            <and>
+                <gate name="Rotor D"/>
+                <gate name="Rotor A"/>
+            </and>
+        </define-gate>
+        <define-gate name="CD Error">
+            <label>Error of both C and D (back) Rotors</label>
+            <and>
+                <gate name="Rotor C"/>
+                <gate name="Rotor D"/>
+            </and>
+        </define-gate>
+        <define-gate name="BC Error">
+            <label>Error of both B and C (right) Rotors</label>
+            <and>
+                <gate name="Rotor B"/>
+                <gate name="Rotor C"/>
+            </and>
+        </define-gate>
+        <define-gate name="AB Error">
+            <label>Error of both A and B (front) Rotors</label>
+            <and>
+                <gate name="Rotor A"/>
+                <gate name="Rotor B"/>
+            </and>
+        </define-gate>
+        <define-gate name="Flying Error">
+            <label>Error of flying due to the Rotor Systems (A,B,C,D)
+If at least 2 rotors on the same side fail to work, flying error occurs.</label>
+            <or>
+                <gate name="AB Error"/>
+                <gate name="BC Error"/>
+                <gate name="CD Error"/>
+                <gate name="DA Error"/>
+            </or>
+        </define-gate>
+        <define-gate name="Unintended Landing">
+            <label>Error of the Drone causing unintended landing</label>
+            <or>
+                <gate name="Flying Error"/>
+                <gate name="Sensor Error"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Rotor B">
+        <label>Error of Rotor System B consisting of Engine B, Propeller B, the CPUs and batteries</label>
+        <attributes>
+            <attribute name="top-event" value="Rotor B Error"/>
+        </attributes>
+        <define-gate name="Engine B Error">
+            <label>Error of Engine B</label>
+            <or>
+                <basic-event name="Engine B Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="Rotor B Error">
+            <label>Error of Rotor System B consisting of Engine B, Propeller B, the CPUs and batteries</label>
+            <or>
+                <gate name="Engine B Error"/>
+                <basic-event name="Propeller B Failure"/>
+                <gate name="CPUs"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Rotor C">
+        <label>Error of Rotor System C consisting of Engine C, Propeller C, the CPUs and batteries</label>
+        <attributes>
+            <attribute name="top-event" value="Rotor C Error"/>
+        </attributes>
+        <define-gate name="Engine C Error">
+            <label>Error of Engine C</label>
+            <or>
+                <basic-event name="Engine C Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="Rotor C Error">
+            <label>Error of Rotor System C consisting of Engine C, Propeller C, the CPUs and batteries</label>
+            <or>
+                <gate name="Engine C Error"/>
+                <basic-event name="Propeller C Failure"/>
+                <gate name="CPUs"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Rotor D">
+        <label>Error of Rotor System D consisting of Engine D, Propeller D, the CPUs and batteries</label>
+        <attributes>
+            <attribute name="top-event" value="Rotor D Error"/>
+        </attributes>
+        <define-gate name="Enigne D Error">
+            <label>Error of Engine D</label>
+            <or>
+                <basic-event name="Engine D Failure"/>
+                <gate name="Battery"/>
+            </or>
+        </define-gate>
+        <define-gate name="Rotor D Error">
+            <label>Error of Rotor System D consisting of Engine D, Propeller D, the CPUs and batteries</label>
+            <or>
+                <gate name="Enigne D Error"/>
+                <basic-event name="Propeller D Failure"/>
+                <gate name="CPUs"/>
+            </or>
+        </define-gate>
+    </define-fault-tree>
+    <define-fault-tree name="Tree1">
+        <attributes>
+            <attribute name="top-event" value="Gate1"/>
+        </attributes>
+        <define-gate name="Gate1">
+            <and>
+                <basic-event name="Event1"/>
+                <basic-event name="Event2"/>
+            </and>
+        </define-gate>
+    </define-fault-tree>
+</opsa-mef>
