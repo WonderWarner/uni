@@ -2,6 +2,7 @@
 You will find a description of each project in its folder.
 
 ## Other important topics learned and practised:
+- Graphs and algorithms: Matching, minimal cuts, connectivity etc.
 - C#
   - Basics of modern C# language and .NET environment
   - WinUI, MVVM
@@ -12,5 +13,6 @@ You will find a description of each project in its folder.
 - Model generating: Refinery
 - Language Engineering: Langium
 - Code generation: Jinja
+- Blockchain technologies: Solidity
 - Python: Common libraries connected to AI and data visualizing
 - HTML, CSS and JavaScript for web-development
