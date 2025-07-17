@@ -1,60 +1,194 @@
-# Homework Assignment
+# Assignment
 
-Using GitHub actions, every diagram is rendered on a different branch, `renders`, enabling easy documentation creation: by using the fully qualified name of the diagram (e.g., `Model.Drone.Package_Overview`), the render can be included in Markdown files:
+## See [Documentation](docs/assignment-3.md)
+### Team name: Rhododendron
+### Team members:
+ - László Görömbey
+ - Pál Sági
+ - Soma Szatmári
+ - Péter Tömöri
+### Made for System Modeling Homework in 2025 Spring
 
-![diagram](../../raw/renders/Model.Drone.Package_Overview.svg)
+# Autonomous UAV System Design Project
 
-Use this method to create your documentation throughout the semester. Create a different Markdown file for each assignment in the `docs` folder. **The documentation should be sufficient for someone to understand your work, without opening any of the model files**.
+## 📌 Project Overview
 
-We include an example model in `model.qeax` for ease of use. Treat this as a placeholder. Feel free to delete the model elements (or replace the file outright), but **keep the filename the same**.
+This semester project involves the **design and modeling of an autonomous unmanned aerial vehicle (UAV) system** for a client in the package delivery industry. The drones will autonomously transport packages between designated stations while complying with strict safety and operational regulations.
 
-The `main` branch is protected, and Pull Requests need to be opened for any updates. 
+The assignment must be completed **in teams**, and requires a **detailed model** of the system’s requirements and architecture, supported by **comprehensive self-contained documentation**.
 
-# Important links
+---
 
-* Tool usage Q&A: [https://q2a.inf.mit.bme.hu/](https://q2a.inf.mit.bme.hu/)
-* Modeling tutorial: [https://ftsrg-rete.github.io/remo-lecture-notes/](https://ftsrg-rete.github.io/remo-lecture-notes/)
-* Tool installation tutorial: [https://ftsrg-rete.github.io/remo-lecture-notes/rete-install-basics-en/](https://ftsrg-rete.github.io/remo-lecture-notes/rete-install-basics-en/)
-* Markdown tutorial (for documentation): [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## ✅ Completion Requirements
 
-# Házi feladat ellenőrző lista
+### 🔧 Mandatory Artifacts (with max points):
 
-Kötelező elemek:
+| Element                                      | Description                                                                                                                                                      | Max Points |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| **System Context**                           | Identification of context elements and their properties (BDD), relationships, data flow, and interfaces with the system (IBD).                                   | 3p         |
+| **Requirements**                             | Collect and model stakeholders (UC), functional and non-functional requirements (REQ), decomposition, and derivation.                                             | 5p         |
+| **Use Cases**                                | Collection, modeling (UC), and elaboration (pre/post conditions, scenarios).                                                                                      | 6p         |
+| **Functional Model / Logical Architecture**  | Identify and decompose core functions (BDD), establish interfaces, data flow, and relationships (IBD).                                                           | 6p         |
+| **Platform Model / Physical Architecture**   | Identify platform components (BDD), define properties, interfaces, and connections (IBD).                                                                         | 6p         |
+| **System Architecture**                      | Allocate functions to platform elements, model platform-specific functions, and component-function views (BDD + IBD).                                             | 6p         |
+| **Behavioral Modeling (choose at least one)**| Sequence diagrams, activity diagrams, or state machines to represent internal/component behaviors.                                                                | 9p         |
+| **Analysis Method (choose at least one)**    | Safety, performance, or reliability analysis (e.g., FMEA, fault trees, simulation).                                                                               | 10p        |
 
-- [x] [Rendszerkontextus](docs/assignment-3.md#system-context-bdd) (3p)
-  - [x] Kontextuselemek és tulajdonságaik azonosítása (BDD)
-  - [x] Kapcsolatok, adatáramlás és interfészek azonosítása (IBD)
-- [x] [Követelmények](docs/assignment-3.md#stakeholders-uc) (5p)
-  - [x] Érintettek összegyűjtése (UC)
-  - [x] Funkcionális és extrafunkcionális követelmények összegyűjtése, kidolgozása, modellezése (REQ)
-  - [x] Követelmények dekomponálása, később származtatása
-- [x] [Használati esetek](docs/assignment-3.md#use-cases-uc) (6p)
-  - [x] Használati esetek összegyűjtése, modellezése (UC)
-  - [x] Használati esetek kidolgozása (elő- és utófeltételek, forgatókönyvek)
-- [x] [Funkcionális modell/logikai architektúra](docs/assignment-3.md#logicalfunctional-system-bdd) (6p)
-  - [x] Fő funkciók összegyűjtése, dekomponálása (BDD)
-  - [x] Kapcsolatok, adatáramlás és interfészek azonosítása (IBD)
-- [x] [Platform modell/fizikai architektúra](docs/assignment-3.md#the-physical-model-bdd) (6p)
-  - [x] Fő platform komponensek összegyűjtése, komponálása, tulajdonságaik megadása (BDD)
-  - [x] Kapcsolatok, adatáramlás és interfészek azonosítása (IBD)
-- [x] [Rendszerarchitektúra](docs/assignment-3.md#system-architecture-bdd) (6p)
-  - [x] Funkciók platformelemekre allokálása
-  - [x] Platformspecifikus funkciók modellezése (BDD)
-  - [x] Konfigurált platform elemek modellezése (BDD)
-  - [x] Komponens-funkció nézet (IBD)
+**Total**: **Max 70 points**  
+**Passing criteria**: At least **28 points from this assignment** and **12 points from the midterm**.
 
-- [x] [Hibatűrés](docs/assignment-3.md#fault-tolerance-considerations): megfelelő hibatűrési minták az architektúra modellben
-- [x] [Nyomonkövethetőség](docs/assignment-3.md#traceability): A modellelemek között modellezni kell a nyomonkövethetőségi relációkat
+---
 
-Legalább egy viselkedésmodell:
+### ⚠️ Critical Aspects (no direct points, but mandatory):
 
-- [x] [Interakció modellezése](docs/assignment-3.md#sequence-diagrams) (9p): Komponensek interakcóinak ábrázolása szekvenciadiagramon
-- [x] [Folyamatmodellezés](docs/assignment-3.md#task-validation-and-execution-activity) (9p): Összetett folyamatok modellezése Activity Diagrammal
-- [x] [Állapotgépek](docs/assignment-3.md#task-execution-systems-state-machine) (9p): Állapotgépek modellezése State Machine Diagramon
+- **Fault Tolerance**: Must use fault-tolerance patterns in the architecture (replication, error checking).
+- **Traceability**: Model traceability relationships (e.g., `trace`, `satisfy`, `verify`) between elements.
 
-Legalább egy analízis módszer:
+---
 
-- [x] [Szolgáltatásbiztonsági analízis](docs/assignment-3.md#fault-tree-analysis) (10p): Hibafa, eseményfa, vagy megbízhatósági blokkdiagram szolgáltatásbiztonság paramétereinek vizsgálatához
-- [x] [Hibamód és -hatás analízis](docs/assignment-3.md#failure-mode-and-effects-analysis-fmea) (10p): részletes táblázatos FMEA a tervezés különböző fázisaiban a hibalehetőségek és hatásuk elemzésére
-- [x] [Teljesítményanalízis](docs/assignment-3.md#performance-analysis) (10p): Teljesítménymodellezés és analízis egy teljesítmény követelmény teljesülésének bizonyításához
-- [x] [Tesztelés és szimuláció](docs/assignment-3.md#simulation) (10p): Egy vagy több funkcionális követelmény vizsgálata a funkcionális modellekhez készített tesztesetekkel és szimulációval
+## 📁 Documentation & Version Control
+
+- All models and documentation must be version-controlled via **GitHub**.
+- Use **Markdown** for documentation.
+- Diagrams must be embedded as images auto-generated by **LemonTree**.
+- A **checklist** in the repository must track fulfillment of requirements.
+- The **`main` branch** must always be stable; all changes via **feature branches** and **pull requests**.
+- Teams may request **up to 3 reviews** during the semester (by weeks 5, 9, and 13). Reviews are delivered as GitHub issues.
+- Include a **list of client-facing questions** in the first review, to be answered by week 6.
+
+---
+
+## 🧠 AI-Generated Content Policy
+
+You may use AI tools, but all generated content:
+- Must be clearly marked and documented.
+- Remains the responsibility of the author — errors will be judged **more strictly** than human mistakes.
+
+---
+
+## 📆 Deadlines
+
+- Final submission: **Monday of the retake week**
+- Late submission: **Until Friday of the retake week**, **20% penalty**
+
+---
+
+## 📝 Specification Summary
+
+### 🔭 Project Scope
+
+Our company is developing specialized autonomous UAVs. The client is a **package delivery company** seeking to expand its infrastructure using **delivery drones**.
+
+The system must:
+- Control and monitor autonomous drones.
+- Integrate with an existing monitoring system (which lacks autonomous control capability).
+- Include design for **autonomous control software**, drone training and maintenance support, and **ground crew operation**.
+- Comply with **airspace safety regulations** and legal constraints.
+
+---
+
+## 📌 Key System Requirements
+
+### From the Client:
+
+- Minimal training required for ground crew.
+- Max. 20 min turnaround between flights.
+- Diagnostic data must be sent to the central IT system.
+- Flight plans and package information must be received and updated.
+- Must comply with all aviation regulations.
+- UAVs must:
+  - Execute flight plans autonomously.
+  - Perform vertical take-off and landing.
+  - Operate without runways.
+  - Be capable of autonomous mission execution, even during communication loss.
+
+### From Airspace Authority:
+
+- Flight plans must only allow landing in pre-designated areas.
+- Must not cross restricted airspace.
+- All flight plan changes must be reported.
+- Authority can override ongoing flights or force landing.
+- Must support controlled emergency landing upon **single fault**.
+- Telemetry requirements:
+  - Reconstruct full trajectory (x, y, z, roll, pitch, yaw).
+  - Include battery and error codes (most severe only).
+  - Transmit at **min. 1Hz**.
+- Communication must be **encrypted**.
+- UAVs must allow operator override at any time.
+- VLOS and wind interaction must be considered in modeling.
+
+---
+
+## 📦 Payload & Docking Station Details
+
+- Max. package size: **250 × 150 × 140 mm**
+- Max. package weight: **3 kg**
+- Docking pad:
+  - Fits drones within a **2m diameter**, **<1m height**
+  - Max. drone weight: **20 kg**
+  - Supports automatic **loading/unloading**
+  - Charges battery
+  - Interfaces with drone to exchange:
+    - Package weight and dimensions
+    - Loading status (success/failure)
+
+---
+
+## 🧩 Software Components
+
+- Three systems (only two are in scope):
+  - Monitoring and remote control system (**existing**).
+  - New **autonomous fleet controller** (design required).
+  - Client’s internal package handling system (out of scope).
+- Flight plans generated and validated by the **autonomous system**.
+- Use reusable components from company libraries where applicable.
+- No need for deep algorithmic design (e.g., sensor fusion, control loops) — only specify component roles and interactions.
+
+---
+
+## 🛠 Drone Requirements
+
+- Range: **25 km** per charge.
+- Must fly in **rain** (but not during storms).
+- Cold boot time: **< 3 seconds**
+- Max. altitude: **200 m**
+- Emergency landing zone: **5x5 m flat, unoccupied area**
+- Speed: Must be subsonic (no supersonic over land)
+- Visual inspections required between missions; detailed inspections monthly.
+- Must withstand wind effects.
+- Telemetry only via central system (no onboard radar allowed).
+
+---
+
+## 🧑‍🏫 Operational Details
+
+- Drones are operated exclusively by the client’s staff.
+- Operations occur only between **owned docking stations**.
+- Personnel are divided into:
+  - **Ground crew** (maintenance)
+  - **Operators** (mission control)
+- Training time: **< 1 workday**
+- Anti-icing procedures in place; flights not permitted under icing risk.
+- Drone noise deters birds — no additional handling required.
+
+---
+
+## 🔐 Legal Reference
+
+- National drone laws are based on the **1995 XCVII aviation law**.
+- Summary available at: [legter.hu](https://legter.hu/blog/dron-torveny-erthetoen-szakertoktol/)
+
+---
+
+## 🚀 Final Presentation
+
+- During the final week, the assignment must be presented instead of attending the lab.
+- Feedback from this session can still be incorporated before submission.
+
+---
+
+## 📌 Summary
+
+This project offers a complete system engineering challenge for **autonomous UAV integration** into an existing logistics ecosystem. It spans **requirement engineering**, **architecture modeling**, **safety analysis**, and **system behavior modeling**, all grounded in **real-world regulation and client constraints**.
+
+---
